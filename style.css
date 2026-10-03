@@ -194,3 +194,7 @@ svg {
 .more svg{
     height: 70px;width: 50px;margin-top: 12px;
 }
+.svg{
+    gap: 10px;
+    padding: 10px;
+}
