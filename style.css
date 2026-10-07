@@ -198,3 +198,159 @@ svg {
     gap: 10px;
     padding: 10px;
 }
+
+@media (max-width: 600px) {
+
+
+    .sidebar {
+        width: 20%;
+        height: 85vh;
+    }
+
+    .main {
+        width: 80%;
+        height: 85vh;
+        overflow-y: auto;
+    }
+
+
+
+    .name {
+        font-size: 20px;
+    }
+
+    .home {
+        display: none;
+    }
+
+    .song-name {
+        display: none;
+    }
+
+    .sidebar .flex {
+        justify-content: center;
+        gap: 0;
+    }
+
+
+
+    .button {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .button1 {
+        margin-right: 10px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+
+
+    .main > .flex:nth-child(2) {
+        display: block;
+    }
+
+    .img1 {
+        width: 180px;
+        height: 180px;
+
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .tcont {
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+
+    .text1 {
+        font-size: 32px;
+    }
+
+
+
+    .play {
+        width: 50px;
+        height: 50px;
+
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+
+
+
+    .song {
+        width: 90%;
+        height: 65px;
+
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .number {
+        width: 25px;
+        font-size: 14px;
+    }
+
+    .cover {
+        width: 50px;
+        height: 50px;
+
+        margin-right: 10px;
+    }
+
+    .song-title {
+        font-size: 15px;
+    }
+
+    .artist {
+        font-size: 12px;
+    }
+
+    .duration {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+
+
+    .playbar {
+        width: 100%;
+        height: 8vh;
+        background-color: #181818;
+    }
+
+    .playbar > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    .playbar .cover {
+        width: 40px;
+        height: 40px;
+    }
+
+    .playbar .song-title {
+        font-size: 13px;
+    }
+
+    .playbar .artist {
+        font-size: 11px;
+    }
+
+
+    .seek {
+        width: 150px !important;
+    }
+
+
+    .volume {
+        display: none;
+    }
+
+}
