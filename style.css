@@ -198,18 +198,28 @@ svg {
     gap: 10px;
     padding: 10px;
 }
+.ham{
+    display: none;
+}
 
 @media (max-width: 600px) {
-
+.ham{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+    .navbar-resp{
+        display: none;
+    }
 
     .sidebar {
         width: 20%;
-        height: 85vh;
+        height: 92vh;
     }
 
     .main {
         width: 80%;
-        height: 85vh;
+        height: 92vh;
         overflow-y: auto;
     }
 
