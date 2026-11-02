@@ -80,8 +80,6 @@ svg {
     padding-left: 15px;
     margin-left: 16px;
     margin-top: 12px;
-    background-color: black;
-    border-radius: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,7 +224,7 @@ svg {
 
 
     .name {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .home {
